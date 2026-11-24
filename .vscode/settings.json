@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-dc2hss68bjmc73foqhlg-a.oregon-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Postgresss",
+            "database": "enterprise_ai_0hkv",
+            "username": "enterprise_ai_0hkv_user"
+        }
+    ]
+}
