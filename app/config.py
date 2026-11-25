@@ -43,6 +43,8 @@
         database_url: str
         rius_api_key: SecretStr
 
+        max_upload_bytes: int = 10 * 1024 * 1024
+
 
     @lru_cache
     def get_settings() -> Settings:
